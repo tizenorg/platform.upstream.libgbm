@@ -5,8 +5,7 @@ module_LTLIBRARIES = libgbm_kms.la
 
 libgbm_la_SOURCES =	\
 	gbm.c		\
-	backend.c	\
-	common.c
+	backend.c
 
 libgbm_la_LIBADD =	\
 	@LIBUDEV_LIBS@
@@ -38,7 +37,6 @@ ext_HEADERS =		\
 	gbm.h		\
 	gbmint.h	\
 	common_drm.h	\
-	common.h	\
 	gbm_kmsint.h
 
 
