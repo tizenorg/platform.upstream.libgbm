@@ -32,8 +32,7 @@ libgbm_kms_la_CFLAGS =	\
 
 libgbm_kms_la_LDFLAGS = -version-info 1:0:0
 
-extdir = $(includedir)/gbm
-ext_HEADERS =		\
+include_HEADERS =	\
 	gbm.h		\
 	gbmint.h	\
 	common_drm.h	\
